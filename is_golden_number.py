@@ -1,5 +1,5 @@
 #def is_golden_number(n):
-#     # function implementation ...
+     # function implementation ...
     
 def is_golden_number(n):
     # Loop through all possible values of a where a + b = n
