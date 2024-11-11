@@ -1,8 +1,8 @@
 def find_maximum_difference(a, b):
-#     # code implementation here...
-
-    # Initialize the variable to store the maximum difference
-    maximum = 0
+# code implementation here...
+    
+    # Initialize the variable to store the maximum difference as the smallest possible value
+    maximum = -float('inf')
     
     # Iterate over both lists using zip() to pair up corresponding elements
     for num1, num2 in zip(a, b):
@@ -15,6 +15,7 @@ def find_maximum_difference(a, b):
     
     # Return the maximum difference
     return maximum
+
 
 print(find_maximum_difference([1, 5, 600], [100, 7, 3, 29, 39]))  
 print(find_maximum_difference([1,5 ,600], [110 ,61, 3 , 701, 29]))
